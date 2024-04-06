@@ -1,0 +1,789 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityHubVersion\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Canteen
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64009
+Successfully changed project path to: D:/Unity/Canteen
+D:/Unity/Canteen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35540] Host "[IP] 192.168.2.8 [Port] 0 [Flags] 2 [Guid] 2959502903 [EditorId] 2959502903 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35540] Host "[IP] 192.168.2.8 [Port] 0 [Flags] 2 [Guid] 2959502903 [EditorId] 2959502903 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 53.76 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.09 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path E:/UnityHubVersion/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Canteen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27a0)
+    Vendor:   NVIDIA
+    VRAM:     11997 MB
+    Driver:   31.0.15.5128
+Initialize mono
+Mono path[0] = 'E:/UnityHubVersion/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityHubVersion/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityHubVersion/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityHubVersion/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityHubVersion/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002546 seconds.
+- Loaded All Assemblies, in  0.258 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 296 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (370ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.463 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <78fe3e0b66cf40fc8dbec96aa3584483>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.521 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (105ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (521ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 9.56 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.02 ms.
+Unloading 6928 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 156 unused Assets / (0.8 MB). Loaded Objects now: 7389.
+Memory consumption went from 261.2 MB to 260.5 MB.
+Total: 3.489500 ms (FindLiveObjects: 0.525300 ms CreateObjectMapping: 0.169000 ms MarkObjects: 2.467500 ms  DeleteObjects: 0.326600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AIStats.cs: 0b1904f113fa03792154ec75418ba4e9 -> 32fdae2d8051a38cb50cbb1cd5347f11
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor-firstpass: 058288358647d939366060d69b29d2c6 -> 934c02d0844fe7b009c758a44b32f71e
+  custom:scripting/monoscript/fileName/Common_PlaySound.cs: c95f9bef6bb0b3d768fc918265fb29e3 -> 4c70636f31da2af5a1a24593f74759fb
+  custom:scripting/monoscript/fileName/WizardParticles.cs: 8f59ff91afec94d7291083927e45f00d -> 45e0dd3de37f47c59c6f2787cc1e8213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AIState.cs: 3c01c7c35a47c5b92134e3da7fe3313b -> a86229ae5e4b5e408c43af5503f7e514
+  custom:scripting/monoscript/fileName/Common_WanderScriptEditor.cs: da76e5272132efe7d82f1ace94596974 -> 76cbc2d8dda1d86387759d9800ec2466
+  custom:scripting/monoscript/fileName/Common_AudioManager.cs: c48948d48a5e4b617b6dab25051b333b -> 1c5dabd5d22c23cb027e76f9bfcbff95
+  custom:scripting/monoscript/fileName/HumanBoneOffset.cs: e90f56047ec24d58b92b1e6e55fe0465 -> 63e974bea9f990387a275b60c7732a25
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PolyIkEditor.cs: 780bfa6201ba6ac273a7ce1dde1a765f -> fb55fc9e7103d920dfa5abf4d6a09d7f
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Common_RandomInt.cs: 50ff1924c2cc8eddf57420104eb9df1e -> a48f2bb76b3aa2e3dbdb6fa359a8cdf0
+  custom:scripting/monoscript/fileName/RandomCharacterPlacer.cs: a16981691b316271899b983f00ca7465 -> fcb33e97ca5da64547e0dc5d2b9151f9
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Common_SurfaceRotation.cs: 091ced68b9f9bf09bec7e36880f35cd5 -> 68c8128f718d5fcccdff3340f0650ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 232f601804e38eb2edef9dd1f70cee23 -> 407c8f010a981309a42b31dcfefe234c
+  custom:scripting/monoscript/fileName/PolyIk.cs: f3d93522695afa8b84e9d4339b518477 -> 2cf1c7b084699a51f6956813fdd44127
+  custom:scripting/monoscript/fileName/Common_AnimSpeed.cs: 73b73710823d9d2e82d088751cf866fd -> 67ac442f26730ad1bd6ca072cc8e2098
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ee2135e65a8e5189c9611cf3826760fd -> c088e6fdcdb07c0515ebeb7f930f1a8d
+  custom:scripting/monoscript/fileName/CustomPeople.cs: 8838577f9c3f29377713ca7f9cf1717a -> 896edd407e229008d9fc61660f830bf2
+  custom:scripting/monoscript/fileName/People_AIStats.cs: b81fa27a8979e95ef101927e66a188b8 -> ccdfebb1b1840e65422441f6fd734519
+  custom:scripting/monoscript/fileName/People_SurfaceRotation.cs: 90480e7d158c040375aca70d8a895aa6 -> 8cf99364460a7ec22056013cf2ec135c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MovementState.cs: ba6cf49c10937d5934ae439b0fab02ab -> 37c1580846485026604df60e6ca7b6b8
+  custom:scripting/monoscript/fileName/Common_WanderManagerEditor.cs: 42e112451ef5153bf76d1958d0780be8 -> bf8a8928a09554257f011d31acf77b73
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-firstpass: a993bd1d5493077a0d340c83629a0c9b -> b1a0a6802f78f9448fe02be00f6d93ec
+  custom:scripting/monoscript/fileName/People_WanderManager.cs: 353be3fc5e634f99b9b38915b47b190d -> 8b2ec77d81046db48d5ead29660557ce
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/IdleState.cs: ee09daa9c54ce6ae92f93a171e15693f -> 44422b17f1a19e87e1fd8447a55599a5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/People_WanderScriptEditor.cs: 6263628a4908921864b3273367a1d899 -> eee1d23cedb90e6b2becca0cad373b5a
+  custom:scripting/monoscript/fileName/Common_WanderScript.cs: a2932621283be833a3c9c6e0500ce3a4 -> b04b3d028c5f109bc42a510145512b6d
+  custom:scripting/monoscript/fileName/Common_WanderManager.cs: b89d41d77668eed9998e347e4a5c91d1 -> 55c03a3caf07e4d43180382e3e3597d9
+  custom:scripting/monoscript/fileName/PolyMorpher.cs: fa4477c54e5c695b2f9744539d554d3d -> 1936419c5b86a736d47ea15a08328a3a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/People_AudioManager.cs: 3917433ef5c38df78006659f923f850b -> 40b95dec59363ed33636353509ba26a5
+  custom:scripting/monoscript/fileName/Common_KillSwitch.cs: 7130837930fe6500a7378b744e7412f4 -> 46603cc0fef3be06cb3586ad110f4638
+  custom:scripting/monoscript/fileName/Common_AnimationControl.cs: 302ec8417d1011aa7f67b7eeb5f06b9a -> 1fd7781a7e17937c8657b0d71cceb29b
+  custom:scripting/monoscript/fileName/Common_StatsTable.cs: 724203a227f4d9cb49ec58435ade0aff -> c12bcc428c807aa2c3c0a506da9999f3
+  custom:scripting/monoscript/fileName/People_WanderScript.cs: 89475be6de3d7d47a426c5f409bc8707 -> 2ae9b7f31cc16dae5c0fb8a84da1cb3f
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.307 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <78fe3e0b66cf40fc8dbec96aa3584483>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 970ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.96 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 6772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (0.7 MB). Loaded Objects now: 7394.
+Memory consumption went from 237.8 MB to 237.1 MB.
+Total: 3.424600 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.150600 ms MarkObjects: 2.484500 ms  DeleteObjects: 0.369400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AIStats.cs: eae7f15ff9da3345655cfae8f769fed3 -> 32fdae2d8051a38cb50cbb1cd5347f11
+  custom:scripting/monoscript/fileName/Common_PlaySound.cs: 8fc1ce277ed68fcbd862f689e19e232e -> 4c70636f31da2af5a1a24593f74759fb
+  custom:scripting/monoscript/fileName/WizardParticles.cs: e051849834aa648f9fcbde48f53f687e -> 45e0dd3de37f47c59c6f2787cc1e8213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AIState.cs: 0ea26528db8cf31e1b36e7a37877c095 -> a86229ae5e4b5e408c43af5503f7e514
+  custom:scripting/monoscript/fileName/Common_WanderScriptEditor.cs: 98d7f73fb4fde2a14e89f0994b1b8a15 -> 76cbc2d8dda1d86387759d9800ec2466
+  custom:scripting/monoscript/fileName/Common_AudioManager.cs: 0666593172b9e6b7804f6f27a2aa1ec4 -> 1c5dabd5d22c23cb027e76f9bfcbff95
+  custom:scripting/monoscript/fileName/HumanBoneOffset.cs: ce446a9cb2a83bdf8db95f916a3305fd -> 63e974bea9f990387a275b60c7732a25
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/PolyIkEditor.cs: ee881e0144ff38e2bfe82759e8a93467 -> fb55fc9e7103d920dfa5abf4d6a09d7f
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Common_RandomInt.cs: 2e528af1fd50c288e481854df7c3b79c -> a48f2bb76b3aa2e3dbdb6fa359a8cdf0
+  custom:scripting/monoscript/fileName/RandomCharacterPlacer.cs: 1982be3176cb29904d26fb6a79eea4b8 -> fcb33e97ca5da64547e0dc5d2b9151f9
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Common_SurfaceRotation.cs: fc67c969ca56d089d7503ff02ece1a67 -> 68c8128f718d5fcccdff3340f0650ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PolyIk.cs: 2f78884dc91d8e5457948f0ee05733f5 -> 2cf1c7b084699a51f6956813fdd44127
+  custom:scripting/monoscript/fileName/Common_AnimSpeed.cs: ce9cbaf55f7a835e41e7a4d912963b78 -> 67ac442f26730ad1bd6ca072cc8e2098
+  custom:scripting/monoscript/fileName/CustomPeople.cs: eddb6f9258308da0b244a341bc4080d9 -> 896edd407e229008d9fc61660f830bf2
+  custom:scripting/monoscript/fileName/People_AIStats.cs: e0a96960367ff6192be7676317d1e456 -> ccdfebb1b1840e65422441f6fd734519
+  custom:scripting/monoscript/fileName/People_SurfaceRotation.cs: e1e8db9bd7a06ae5a263500abe56f997 -> 8cf99364460a7ec22056013cf2ec135c
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MovementState.cs: 3555cfa1863b45626d64a6c452640654 -> 37c1580846485026604df60e6ca7b6b8
+  custom:scripting/monoscript/fileName/Common_WanderManagerEditor.cs: 2863c032e773e3dae0fb2da31caf3032 -> bf8a8928a09554257f011d31acf77b73
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/People_WanderManager.cs: 472a05314a3b11f37eab31615c7ad381 -> 8b2ec77d81046db48d5ead29660557ce
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:scripting/monoscript/fileName/IdleState.cs: aeb7760a601c92369294ae4d026209db -> 44422b17f1a19e87e1fd8447a55599a5
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/People_WanderScriptEditor.cs: a0a7d37904614400c36d61cecb9d7a08 -> eee1d23cedb90e6b2becca0cad373b5a
+  custom:scripting/monoscript/fileName/Common_WanderScript.cs: 90f9b2a444210e8c405697fc86e5be93 -> b04b3d028c5f109bc42a510145512b6d
+  custom:scripting/monoscript/fileName/Common_WanderManager.cs: 0693a2c5d1a46a8865f27952c93e3d25 -> 55c03a3caf07e4d43180382e3e3597d9
+  custom:scripting/monoscript/fileName/PolyMorpher.cs: 2fe2278ca5723e404396060081fd9344 -> 1936419c5b86a736d47ea15a08328a3a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/People_AudioManager.cs: f5f439a01d3d07138e61e326357e300d -> 40b95dec59363ed33636353509ba26a5
+  custom:scripting/monoscript/fileName/Common_KillSwitch.cs: c4ffb1226bd708b7f7285ed20e3da264 -> 46603cc0fef3be06cb3586ad110f4638
+  custom:scripting/monoscript/fileName/Common_AnimationControl.cs: 07895bff98839ab838730c929cafbf2a -> 1fd7781a7e17937c8657b0d71cceb29b
+  custom:scripting/monoscript/fileName/Common_StatsTable.cs: 3301e9bce4abef613bd3b9e296c6cc24 -> c12bcc428c807aa2c3c0a506da9999f3
+  custom:scripting/monoscript/fileName/People_WanderScript.cs: 2efd129341eade91269bcbb7b0abec34 -> 2ae9b7f31cc16dae5c0fb8a84da1cb3f
+========================================================================
+Received Import Request.
+  Time since last request: 1061719.239020 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Sounds
+  artifactKey: Guid(cec19a7a444454d0d88a1068e58b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Sounds using Guid(cec19a7a444454d0d88a1068e58b3635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c979734fa2b3a848586cf362f75216f') in 0.006527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.463688 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Scripts
+  artifactKey: Guid(12de8838a6bc7da46a3285bfae0d91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Scripts using Guid(12de8838a6bc7da46a3285bfae0d91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc29af2e4bbff48e73b8438ecf35b07') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.371028 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs
+  artifactKey: Guid(1dafaf724e62a45409a18189abc19f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs using Guid(1dafaf724e62a45409a18189abc19f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a74ac4c57f085d4398bfaf30a5f5621') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.651958 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/MainRig.prefab
+  artifactKey: Guid(1d011866801be5d4bb435a5ff860cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/MainRig.prefab using Guid(1d011866801be5d4bb435a5ff860cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799b55fb247f819173e1071b867a1ab9') in 0.379852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 435
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-lumberjack.prefab
+  artifactKey: Guid(641cd244e08025c40b3c350a6cdac0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-lumberjack.prefab using Guid(641cd244e08025c40b3c350a6cdac0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0cb6468035ea38658c7e060d4bbc3b') in 0.066919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-cyclist.prefab
+  artifactKey: Guid(52a4e71b98c6f1148b688560683515eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-cyclist.prefab using Guid(52a4e71b98c6f1148b688560683515eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97489ee3f23034940c023ce06c28e15') in 0.041461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-clown.prefab
+  artifactKey: Guid(5fa0d8b249e488041b838dfe8dd2c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-clown.prefab using Guid(5fa0d8b249e488041b838dfe8dd2c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e501d5b79f9a74e9b6d465cfe5f44') in 0.030500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-chef.prefab
+  artifactKey: Guid(b38bdb14382d6de4b8619a6dd696d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-chef.prefab using Guid(b38bdb14382d6de4b8619a6dd696d59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593d360932bf60a280a35fc175c5894') in 0.055789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-clown.prefab
+  artifactKey: Guid(60751edb07414f24887651b97bcdfb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-clown.prefab using Guid(60751edb07414f24887651b97bcdfb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795d1a7de06159388ba6689099dd95bf') in 0.033600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-basketball-player.prefab
+  artifactKey: Guid(f8a3245b44b6ca546a922766eef4966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-basketball-player.prefab using Guid(f8a3245b44b6ca546a922766eef4966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c509f0215be108c9eb267bc311290f') in 0.036961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-soldier.prefab
+  artifactKey: Guid(9f8e9417f08b6e24fa408649463b5d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-soldier.prefab using Guid(9f8e9417f08b6e24fa408649463b5d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86ed0cd52f79e63dd9d1ee536d64602') in 0.043768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-soldier.prefab
+  artifactKey: Guid(6f0422fdd3f903141b9e93267daef3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-soldier.prefab using Guid(6f0422fdd3f903141b9e93267daef3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f5e416be4654077a89339556434424') in 0.054322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-farm.prefab
+  artifactKey: Guid(1338bf303f9b04c47844d069f4890af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-farm.prefab using Guid(1338bf303f9b04c47844d069f4890af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2f1e3f3edc14e92e2a0a920132ec4b') in 0.079557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-swimsuit.prefab
+  artifactKey: Guid(5100414241a66d24b8ef386ed4c305bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-swimsuit.prefab using Guid(5100414241a66d24b8ef386ed4c305bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee978512768952bf657eccd6c6c4d4') in 0.067235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-astronaut.prefab
+  artifactKey: Guid(a41d416eb35412448ada281796a0b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-astronaut.prefab using Guid(a41d416eb35412448ada281796a0b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a0d536a74d42f9b79e5fa2b68e1ed') in 0.084748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 419
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-casual.prefab
+  artifactKey: Guid(66b8a3d9437714a4981e8f26d5e06615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-casual.prefab using Guid(66b8a3d9437714a4981e8f26d5e06615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebf4992e5ddc8f16fa3cbce9005173b') in 0.048140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-prehistoric.prefab
+  artifactKey: Guid(0622c92e76e9a49409e4a7b6821a3fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-prehistoric.prefab using Guid(0622c92e76e9a49409e4a7b6821a3fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f43592be101f224043c8233557e26d0') in 0.043423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 419
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-police.prefab
+  artifactKey: Guid(56633a6f11395bb4a974f3eaca488638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-police.prefab using Guid(56633a6f11395bb4a974f3eaca488638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496ddb87b86c84255eb0681665ed2e9a') in 0.040939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-lumberjack.prefab
+  artifactKey: Guid(aec866e4f6462b64ab05f819de49e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-lumberjack.prefab using Guid(aec866e4f6462b64ab05f819de49e1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576f442b7856ca911a821018df3999e4') in 0.045641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-boxer.prefab
+  artifactKey: Guid(63b95325c3ee1cb4594404c3f8f2fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-boxer.prefab using Guid(63b95325c3ee1cb4594404c3f8f2fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a4b0ac1ae0e315dce9ed22357121e9') in 0.041650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-prehistoric.prefab
+  artifactKey: Guid(1d6fdc94aff822e43b42a74383801014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-prehistoric.prefab using Guid(1d6fdc94aff822e43b42a74383801014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f367afe53349c6f8198a16f94d276a3') in 0.037601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-skeleton.prefab
+  artifactKey: Guid(c40ca70124396bd499dc98a0a91e7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-skeleton.prefab using Guid(c40ca70124396bd499dc98a0a91e7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8be2697272b868766ad323be8fa6746') in 0.036941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-skate.prefab
+  artifactKey: Guid(0eabfb95764de9a4e873a52abf99bc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-skate.prefab using Guid(0eabfb95764de9a4e873a52abf99bc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c771bad945500917a48a4bbbb0d22eb3') in 0.040389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-skate.prefab
+  artifactKey: Guid(aee7be7239d03b1439accde8074b02a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-skate.prefab using Guid(aee7be7239d03b1439accde8074b02a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e2a8c49467a0f68956cb015b8855ce') in 0.038006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-construction-worker.prefab
+  artifactKey: Guid(e0018d9b3b6e4464190d9bbbe1b09541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-construction-worker.prefab using Guid(e0018d9b3b6e4464190d9bbbe1b09541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5d98acca0f4e00bf6d62c442a18d91') in 0.037996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 419
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-knight.prefab
+  artifactKey: Guid(22048fc3deb683547a35d26c58e740a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/man-knight.prefab using Guid(22048fc3deb683547a35d26c58e740a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d1d658344924c330632e0be52bda5a') in 0.035171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 422
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-police.prefab
+  artifactKey: Guid(0c7d1a9ed62355c4781c73d2c0f5a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Prefabs/woman-police.prefab using Guid(0c7d1a9ed62355c4781c73d2c0f5a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96a4f5e07e4fe80a416cef884deb027') in 0.032789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 421
+========================================================================
+Received Import Request.
+  Time since last request: 2.492565 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials
+  artifactKey: Guid(2248c332413ff44f8849419b6e996846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials using Guid(2248c332413ff44f8849419b6e996846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10209976a34d95db132c43249405bd0e') in 0.001970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026016 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/LOW-POLY-COLORS.mat
+  artifactKey: Guid(f03213e836b6d46eda1d4f0531452375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/LOW-POLY-COLORS.mat using Guid(f03213e836b6d46eda1d4f0531452375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d7aa97ab25abcebca5fd478edf9c55') in 0.129850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.399426 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors
+  artifactKey: Guid(07a4dff60bc9743a398c3b1c27c82211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors using Guid(07a4dff60bc9743a398c3b1c27c82211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97910606052bb4e36754d10d15125297') in 0.001238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049620 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/1 SKIN-DARKEST.mat
+  artifactKey: Guid(7e05ef7409d694c74a16dec33c316bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/1 SKIN-DARKEST.mat using Guid(7e05ef7409d694c74a16dec33c316bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c686075c8f8a9164e6774972d390d67e') in 0.010733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/7 SKIN-WHITE.mat
+  artifactKey: Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/7 SKIN-WHITE.mat using Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3980999a757af7ce930c692df0039836') in 0.016097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/43 BLUE-MEDIUM.mat
+  artifactKey: Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/43 BLUE-MEDIUM.mat using Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd601c218cc385b4cd5d3affd42950') in 0.010025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/64 GLASS.mat
+  artifactKey: Guid(ffce2a7e1519d465684f3f97da456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/64 GLASS.mat using Guid(ffce2a7e1519d465684f3f97da456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a53c86becaa4c5537ec4be1137d04e') in 0.013842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/37 GREEN-LIGHT.mat
+  artifactKey: Guid(d41a8bca790345f49b3ae205465ff2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/37 GREEN-LIGHT.mat using Guid(d41a8bca790345f49b3ae205465ff2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8badc26e23e310567635820c7e07c1a') in 0.013256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/50 PINK-DARK.mat
+  artifactKey: Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/50 PINK-DARK.mat using Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7c980aa8025d32c5134ca0352cd43a') in 0.014751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/31 YELLOW-LIGHT.mat
+  artifactKey: Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/31 YELLOW-LIGHT.mat using Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea9c71b42c35c5996d5575eb5e7e7bc') in 0.013279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/52 PINK.mat
+  artifactKey: Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/52 PINK.mat using Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fee39a2c391c45e93ee2fb4286709e') in 0.013450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/10 BROWN-DARK.mat
+  artifactKey: Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/10 BROWN-DARK.mat using Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edce983b0d563050fa87b7f0f7f8466e') in 0.012218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/53 PINK-LIGHT.mat
+  artifactKey: Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/53 PINK-LIGHT.mat using Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165c252263aadf0c08e9d9a0f323aab9') in 0.015388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/26 RED-DARK.mat
+  artifactKey: Guid(48b31daa83ddb854fadd9402702394e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/26 RED-DARK.mat using Guid(48b31daa83ddb854fadd9402702394e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad35af57b90ae1b401fcc3e20bc4371b') in 0.031117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/12 BROWN.mat
+  artifactKey: Guid(d07dc9a550022a74792d211f343e0b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/12 BROWN.mat using Guid(d07dc9a550022a74792d211f343e0b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85c03857026036e27a38023e70bd911') in 0.013553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/4 SKIN.mat
+  artifactKey: Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/4 SKIN.mat using Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b5140cf3da2042a8ae8ed897c51f8') in 0.014300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/49 PINK-DARKEST.mat
+  artifactKey: Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/49 PINK-DARKEST.mat using Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694a30f4287064a12933024eb1635904') in 0.013117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/36 GREEN.mat
+  artifactKey: Guid(fb045539f4b18a242aca8e57e88c5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/36 GREEN.mat using Guid(fb045539f4b18a242aca8e57e88c5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0da849697819d7b831e2174586819ca') in 0.015125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/18 GREY-DARK.mat
+  artifactKey: Guid(40a353f6117398145a3e785d9854de93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/18 GREY-DARK.mat using Guid(40a353f6117398145a3e785d9854de93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f28853b461011d7a7e7fe475424c76') in 0.019062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/46 BLUE-LIGHEST.mat
+  artifactKey: Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/46 BLUE-LIGHEST.mat using Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d733194c6c505b5b1f2f1d490b34a6f') in 0.016393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/30 YELLOW.mat
+  artifactKey: Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/30 YELLOW.mat using Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c577a671191c0912b1bea602277597f3') in 0.019272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/41 BLUE-DARKEST.mat
+  artifactKey: Guid(d5077596fd03948479386c08b1c99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/41 BLUE-DARKEST.mat using Guid(d5077596fd03948479386c08b1c99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db865e82f64ad6b00d8d78ea71edb42') in 0.015364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/27 RED.mat
+  artifactKey: Guid(1d41f8c57e738e44f9f12fc053be388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/27 RED.mat using Guid(1d41f8c57e738e44f9f12fc053be388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9fccce9cfbecf0defba61d29c3cd6b') in 0.017247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/51 PINK-MEDIUM.mat
+  artifactKey: Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/51 PINK-MEDIUM.mat using Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f5c04ba16afa4478a5424c225589b0') in 0.015353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/23 GREY-WHITE.mat
+  artifactKey: Guid(579080bda9f89ee42a5447d6d997e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/23 GREY-WHITE.mat using Guid(579080bda9f89ee42a5447d6d997e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf9d41dcb782369fd53d739991b3c86') in 0.013746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.671911 seconds.
+  path: Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/Emission/62 EMISSION-YELLOW.mat
+  artifactKey: Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/polyperfect/Low Poly Animated People/- Materials/Colors/Emission/62 EMISSION-YELLOW.mat using Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10b607af44f4e7c151f0c3a20342c3d') in 0.015251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
