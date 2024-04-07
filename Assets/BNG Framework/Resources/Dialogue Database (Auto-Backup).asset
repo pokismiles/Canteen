@@ -2425,6 +2425,12 @@ MonoBehaviour:
         destinationDialogueID: 1
         isConnector: 0
         priority: 2
+      - originConversationID: 6
+        originDialogueID: 0
+        destinationConversationID: 6
+        destinationDialogueID: 4
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2432,7 +2438,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 159.2157
         y: 30
         width: 160
         height: 30
@@ -2480,15 +2486,15 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Boss_Second") == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160.66666
-        y: 80.66667
+        x: 153.01958
+        y: 123.764725
         width: 160
         height: 30
     - id: 2
@@ -2542,8 +2548,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 159.33334
-        y: 130
+        x: 170.66669
+        y: 188.00003
         width: 160
         height: 30
     - id: 3
@@ -2583,7 +2589,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 6
+        originDialogueID: 3
+        destinationConversationID: 6
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: SetQuestState("Boss_Second", "active")
       onExecute:
@@ -2591,8 +2603,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
-        y: 180.66669
+        x: 171.33334
+        y: 238.66673
         width: 160
         height: 30
     - id: 4
@@ -2639,15 +2651,15 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
-      conditionsString: 
+      conditionsString: CurrentQuestState("Boss_Second") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 524
-        y: 79.33334
+        x: 524.6667
+        y: 80.548996
         width: 160
         height: 30
     - id: 5
@@ -2758,9 +2770,58 @@ MonoBehaviour:
         y: 180
         width: 160
         height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: "\u597D"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 6
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: SetQuestState("Boss_Second", "active")
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 171.33334
+        y: 288.66672
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 111.33331, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 30.292091, y: 0}
+    canvasZoom: 0.85000014
   syncInfo:
     syncActors: 0
     syncItems: 0
